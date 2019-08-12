@@ -1,0 +1,35 @@
+name: influx_io_bloc
+description: An InfluxDB Client.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.22.0
+  timezone: ^0.5.4
+  dio: ^2.1.13
+  sqflite: ^1.1.5
+  path_provider: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/Montserrat/Montserrat-bold.ttf
+          weight: 700
+  uses-material-design: true
